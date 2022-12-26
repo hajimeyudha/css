@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform CSS3</title>
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: 0.3s;
+        }
+
+        .kotak:hover {
+            /* transform: scale(3, 1.5); */
+            /* transform: rotate(90deg) rotateX(90deg) rotateY(90deg); */
+            /* transform: skew(45deg);   */
+            /* skew sama skewX sama, tapi kalau skewY vertikal */
+            transform: scale(1.5) translate(50px, 50px); /* kanan bawah, bisa X Y juga */
+            /* translate itu nggeser */
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eaque minima commodi. Magnam voluptates ipsum, labore iusto ullam non ipsa quas sint nesciunt. Veritatis voluptatum nemo numquam vel dicta ducimus?</p>
+</body>
+</html>

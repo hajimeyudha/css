@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+    background-image: url(gambar/pink-flowers.webp);
+}
+
+/* shorthand */
+/* background: color url() position repeat; */

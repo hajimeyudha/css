@@ -1,0 +1,30 @@
+margin bisa diberi nilai negatif
+
+
+#PADDING
+padding tidak bisa negatif dan auto
+
+padding: 20px 40px (atas bawah 20px, kanan kiri 40px)
+
+padding itu memengaruhi ukuran suatu objek, misal dah ditentuin 100 px nih, dikasi padding 50px jadi totalnya 150px
+
+#BORDER: batas di sekeliling konten dan padding
+
+border: ukuran ketebalan warna
+
+solid, dotted, dashed, double
+
+border juga memengaruhi ukuran elemen, jadi harus diatur lagi sesuai dengan ukuran yang diinginkan, misal pengen 300px ya objeknya jadiin 295px dengan border 5px nanti totalnya jadi 300px
+
+ #BOX SIZING = mengkalkulasi otomatis dimensi objek
+box sizing = border-box
+ 
+ #CSS RESET = agar css defaultnya kehapus semua, dan kita punya kembali penuh
+
+
+
+
+ #Positioning
+
+ static itu nilai default element nya
+ kalau non static bakal menyebabkan seolah antar elemen berada di dimensi lain/berbeda

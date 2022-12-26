@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition 1</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container{
+        width: 800px;
+        margin: 10px auto;
+        border: 5px solid black;
+      }
+      .kotak {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+      }
+      .kotak1 {
+        background-color: blue;
+        transition: all 3s ease;
+      }
+      .kotak2 {
+        background-color: red;
+        transition: all 3s ease-in;
+      }
+      .kotak3 {
+        background-color: yellow;
+        transition: all 3s ease-out;
+      }
+      .kotak4 {
+        background-color: orange;
+        transition: all 3s ease-in-out;
+      }
+      .kotak5{
+        background-color: bisque;
+        transition: all 3s linear;
+      }
+      .kotak6{
+        background-color: green;
+        transition: all 3s cubic-bezier(0.58,-0.19, 0.7, 1.26); 
+        /* pake inspect buat ngeluarin editor cubic beziernya */
+      }
+      .container:hover .kotak{
+        transform: rotate(720deg);
+        margin-left: 700px;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="kotak kotak1">ease</div>
+      <div class="kotak kotak2">ease-in</div>
+      <div class="kotak kotak3">ease-out</div>
+      <div class="kotak kotak4">ease-in-out</div>
+      <div class="kotak kotak5">linear</div>
+      <div class="kotak kotak6">cubic-bezier</div>
+    </div>
+  </body>
+</html>

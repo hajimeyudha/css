@@ -1,0 +1,16 @@
+h1 {
+    color: #abcdef;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+a {
+    text-decoration: none;
+}
